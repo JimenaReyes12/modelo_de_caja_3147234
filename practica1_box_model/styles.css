@@ -1,0 +1,36 @@
+/*
+    box model:
+    -solo funciona en elementos display block
+    -div es una etiqueta que por defecto tiene display block 
+
+    El comportamiento por defecto:
+    - ocupa todo el ancho de pantalla
+    - la altura depende del contenido
+
+    Funiona si:
+    -funciona si las cajas tienen algun contenido
+    - o tienen tamaño definido
+*/
+
+.box{
+    border-top-color: cadetblue;
+    border-top-style: groove;
+    border-top-width: 10px;
+    border-left: dashed;
+    border-right: dotted ;
+    border-bottom:inset;
+}
+
+.box1{
+    background: steelblue;
+    padding: 50px 45px 3px;
+    height: 100px;
+    display: block; 
+}
+
+.box2{
+    background: salmon;
+    padding: 2px 4px 6px 8px;
+    display: block;
+    height: 200px;
+}
