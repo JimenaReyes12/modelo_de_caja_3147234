@@ -10,7 +10,21 @@
     Funiona si:
     -funciona si las cajas tienen algun contenido
     - o tienen tamaño definido
+
+
+    Margin:
+    -Determina el espacio entre los elementos 
+    -solo aplica a elementos display block
+    -Computado de margenes 
+    -colapso de margenes
 */
+
+/*Formas de reseteo universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .box{
     border-top-color: cadetblue;
@@ -21,16 +35,31 @@
     border-bottom:inset;
 }
 
-.box1{
+.box1{    
+    margin-top: 20px 40px;
     background: steelblue;
     padding: 50px 45px 3px;
-    height: 100px;
     display: block; 
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 20px;
 }
 
 .box2{
     background: salmon;
-    padding: 2px 4px 6px 8px;
     display: block;
     height: 200px;
+    width: 200px;
+    opacity: 0.5;
+    margin-top: 100px;
+    border-radius: 50%;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+
 }

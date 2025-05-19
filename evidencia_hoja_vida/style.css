@@ -1,0 +1,68 @@
+/*Estilos globales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+/*Estilos de la card
+    Auto: Para hacer una distribucion equitativa del espacio disponible
+*/
+.card{    
+    border: transparent 2px solid;
+    display: block;
+    background-color: #f2f2f2;
+    width: 400px;
+    height: 750px;
+    margin: 50px auto 10px auto;
+    border-radius: 5px;
+}
+ /*Estilos de la imagen*/
+.img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+/*Estilos al contenedor*/
+.contenedor{
+    display: block;
+    margin: 50px auto 20px;
+    width: 70%;
+    height: 300px;
+}
+
+.titulo, .parrafo{
+    display: block;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    color: #302928;
+    margin: 10px auto 20px;
+}
+
+.parrafo{
+    text-align: justify;
+    font-size: 20px;
+    color: #93948D;
+    margin: 10px auto 20px;
+}
+
+/*Estilon para el boton*/
+.boton{
+    display: block;
+    width: 100%;
+    background-color: #DDCBC3;
+    color: #302928;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
